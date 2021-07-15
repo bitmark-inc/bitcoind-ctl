@@ -1,0 +1,13 @@
+port: :8032
+
+owner_did: did:key:<did_account>
+bitcoind_network: testnet
+bitcoind_endpoint: http://user:pass@localhost:8332
+
+local:
+  bitcoind_path:
+  bitcoind_conf_path:
+
+k8s:
+  local_config: false
+  namespace: autonomy
