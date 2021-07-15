@@ -9,5 +9,5 @@ local:
   bitcoind_conf_path:
 
 k8s:
-  local_config: false
+  use_local_context: false
   namespace: autonomy

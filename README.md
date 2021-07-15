@@ -27,7 +27,7 @@ In cluster mode, it controls the statefulset of its corresponded bitcoind throug
 
 | Variable | Type | Description |
 |-|-|-|
-| AUTONOMY_WALLET_K8S_LOCAL_CONF | boolean | Kubernetes namespace |
+| AUTONOMY_WALLET_K8S_USE_LOCAL_CONTEXT | boolean | Use local Kubernetes context   |
 | AUTONOMY_WALLET_K8S_NAMESPACE | string | Kubernetes namespace |
 
 #### Local

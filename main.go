@@ -31,7 +31,7 @@ func main() {
 
 	{
 		var err error
-		if viper.GetBool("k8s.local_config") {
+		if viper.GetBool("k8s.use_local_context") {
 			var kubeConfigFile *string
 			if home := homedir.HomeDir(); home != "" {
 				kubeConfigFile = flag.String("kubeconfig", filepath.Join(home, ".kube", "config"), "(optional) absolute path to the kubeconfig file")
